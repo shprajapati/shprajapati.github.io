@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Sanket Infotech</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <title>Sanket Infotech — Sanket Prajapati</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <meta name="keywords" content="Sanket Prajapati, Full Stack Developer, PHP Developer, CodeIgniter Developer, Frontend Developer">
+  <meta name="description" content="Portfolio of Sanket Prajapati — Full Stack Developer, PHP & WordPress developer, front-end specialist.">
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -24,478 +25,248 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  
+  <style>
+    @media (max-width: 767px) {
+      .navbar-brand { font-size: 20px; }
+      .intro-title { font-size: 28px; line-height: 1.1; }
+      .intro-subtitle { font-size: 16px; }
+      .about-info p { font-size: 14px; }
+      .title-s { font-size: 16px; }
+    }
+
+    .intro {
+      background-size: cover !important;
+      background-position: center !important;
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .about-img img { width: 100%; height: auto; display:block; }
+    .progress { height: 8px; }
+    .progress-bar { transition: width .8s ease; }
+    .box-shadow-full { padding: 18px; }
+    .service-box { padding: 20px 10px; }
+    .work-box { margin-bottom: 20px; }
+  </style>
 </head>
 
 <body id="page-top">
 
-  <!--/ Nav Star /-->
+  <!-- Nav -->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">Sanket Infotech</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
+          <li class="nav-item"><a class="nav-link js-scroll active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#service">Services</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <!--/ Nav End /-->
 
-  <!--/ Intro Skew Star /-->
+  <!-- Intro -->
   <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
     <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h1 class="intro-title mb-4">I am Sanket Prajapati</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Web Developer,Web Designer</span><strong class="text-slider"></strong></p>
-        </div>
+    <div class="intro-content w-100">
+      <div class="container text-center">
+        <h1 class="intro-title mb-3">Hi — I'm <strong>Sanket Prajapati</strong></h1>
+        <p class="intro-subtitle mb-0">
+          Full Stack Developer • PHP, CodeIgniter, WordPress & Frontend Specialist
+        </p>
+        <p class="mt-3">
+          <a href="#work" class="btn btn-primary btn-sm">See my work</a>
+          <a href="#contact" class="btn btn-outline-light btn-sm ml-2">Get in touch</a>
+        </p>
       </div>
     </div>
   </div>
-  <!--/ Intro Skew End /-->
 
+  <!-- About -->
   <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="box-shadow-full">
             <div class="row">
-              <div class="col-md-7">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/sanket.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Sanket Prajapati</span></p>
-                      <p><span class="title-s">Profile: </span> <span>PHP developer,Wordpress developer</span></p>
-                      <p><span class="title-s">Email: </span> <span>-</span></p>
-                      <p><span class="title-s">Phone: </span> <span>-</span></p>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-              <div class="col-md-5">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <span>HTML</span> <span class="pull-right">85%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>CSS3</span> <span class="pull-right">75%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>PHP</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
+              <div class="col-12 col-md-5">
+                <div class="about-img">
+                  <img src="img/sanket.jpg" class="img-fluid rounded b-shadow-a" alt="Sanket Prajapati">
                 </div>
               </div>
-            </div>
-          </div>
+              <div class="col-12 col-md-7">
+                <div class="about-info">
+                  <p><span class="title-s">Name: </span> <span>Sanket Prajapati</span></p>
+                  <p><span class="title-s">Profile: </span> <span>Full Stack Developer / Senior Application Architect</span></p>
+                  <p><span class="title-s">Location: </span> <span>Ahmedabad, Gujarat, India</span></p>
+                  <p><span class="title-s">Experience: </span> <span>8+ years building web applications</span></p>
+                  <p><span class="title-s">Email: </span> <span>your-email@example.com</span></p>
+                  <p><span class="title-s">Phone: </span> <span>+91-XXXXXXXXXX</span></p>
+                </div>
+                <div class="about-me pt-3">
+                  <p class="title-s">About Me</p>
+                  <p>
+                    I design and develop scalable, performance-focused web applications using PHP, CodeIgniter, WordPress,
+                    and modern frontend technologies like React and JavaScript. I specialize in complex system design,
+                    dynamic form creation, and AI-powered integrations.
+                  </p>
+                  <div class="skill-mf mt-3">
+                    <p class="title-s">Skills</p>
+                    <div class="mb-2"><span>PHP</span> <span class="pull-right">85%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:85%"></div></div></div>
+                    <div class="mb-2"><span>CodeIgniter</span> <span class="pull-right">90%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:90%"></div></div></div>
+                    <div class="mb-2"><span>JavaScript / React</span> <span class="pull-right">95%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:95%"></div></div></div>
+                    <div class="mb-2"><span>WordPress</span> <span class="pull-right">80%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:80%"></div></div></div>
+                    <div class="mb-2"><span>MySQL</span> <span class="pull-right">85%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:85%"></div></div></div>
+                  </div>
+                </div>
+              </div> 
+            </div> 
+          </div> 
         </div>
       </div>
     </div>
   </section>
 
-  <!--/ Section Services Star /-->
+  <!-- Services -->
   <section id="service" class="services-mf route">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Services
-            </h3>
-            <p class="subtitle-a">
-              
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
+      <div class="title-box text-center">
+        <h3 class="title-a">Services</h3>
+        <div class="line-mf"></div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Design</h2>
-              
-            </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="service-box text-center">
+            <div class="service-ico"><span class="ico-circle"><i class="ion-monitor"></i></span></div>
+            <h2 class="s-title">Web Design</h2>
+            <p class="small">Clean, responsive UI & UX for desktop and mobile applications.</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Development</h2>
-              
-            </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="service-box text-center">
+            <div class="service-ico"><span class="ico-circle"><i class="ion-code-working"></i></span></div>
+            <h2 class="s-title">Web Development</h2>
+            <p class="small">Backend development with PHP, CodeIgniter, and WordPress custom themes & plugins.</p>
           </div>
         </div>
-       
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Responsive Design</h2>
-              
-            </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="service-box text-center">
+            <div class="service-ico"><span class="ico-circle"><i class="ion-android-phone-portrait"></i></span></div>
+            <h2 class="s-title">Responsive Design</h2>
+            <p class="small">Pixel-perfect responsive layouts and performance optimization across devices.</p>
           </div>
         </div>
-       
       </div>
     </div>
   </section>
-  <!--/ Section Services End /-->
 
-  <div class="section-counter paralax-mf bg-image hidden" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 col-lg-4">
-          <div class="counter-box counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">50</p>
-              <span class="counter-text">WORKS COMPLETED</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 col-lg-4">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">15</p>
-              <span class="counter-text">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 col-lg-4">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">50</p>
-              <span class="counter-text">TOTAL CLIENTS</span>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Portfolio Star /-->
+  <!-- Portfolio -->
   <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Portfolio
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
+      <div class="title-box text-center">
+        <h3 class="title-a">Portfolio</h3>
+        <p class="subtitle-a">Selected projects — click to view (replace images/links with real projects)</p>
+        <div class="line-mf"></div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="work-box">
             <a href="img/work-1.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-1.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
+              <div class="work-img"><img src="img/work-1.jpg" alt="Project 1" class="img-fluid"></div>
+              <div class="work-content p-2">
+                <h2 class="w-title">Custom CMS Project</h2>
+                <div class="w-more"><span class="w-ctegory">Web Development</span> / <span class="w-date">2024</span></div>
               </div>
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="work-box">
             <a href="img/work-2.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-2.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Loreda Cuno Nere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
+              <div class="work-img"><img src="img/work-2.jpg" alt="Project 2" class="img-fluid"></div>
+              <div class="work-content p-2">
+                <h2 class="w-title">WordPress E-commerce</h2>
+                <div class="w-more"><span class="w-ctegory">WordPress</span> / <span class="w-date">2023</span></div>
               </div>
             </a>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-6 col-md-4">
           <div class="work-box">
             <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-3.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
+              <div class="work-img"><img src="img/work-3.jpg" alt="Project 3" class="img-fluid"></div>
+              <div class="work-content p-2">
+                <h2 class="w-title">E-commerce Web App</h2>
+                <div class="w-more"><span class="w-ctegory">E-commerce</span> / <span class="w-date">2022</span></div>
               </div>
             </a>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-4.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-5.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-6.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        
       </div>
     </div>
   </section>
-  <!--/ Section Portfolio End /-->
-  <!--/ Section Contact-Footer Star /-->
+
+  <!-- Contact -->
   <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message Us
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-telephone"></span>-</li>
-                      <li><span class="ion-email"></span> -</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
+      <div class="contact-mf">
+        <div id="contact" class="box-shadow-full p-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="title-box-2"><h5 class="title-left">Send Message</h5></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div id="sendmessage" style="display:none">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <div class="form-group mb-2"><input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required></div>
+                <div class="form-group mb-2"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required></div>
+                <div class="form-group mb-2"><input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required></div>
+                <div class="form-group mb-2"><textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea></div>
+                <div class="form-group"><button type="submit" class="button button-a button-big button-rouded">Send Message</button></div>
+              </form>
+            </div>
+
+            <div class="col-md-6">
+              <div class="title-box-2 pt-4 pt-md-0"><h5 class="title-left">Get in Touch</h5></div>
+              <div class="more-info">
+                <p class="small">Prefer email? Send me a note at <strong>your-email@example.com</strong> or call <strong>+91-XXXXXXXXXX</strong>.</p>
+                <ul class="list-ico">
+                  <li><span class="ion-ios-location"></span> Ahmedabad, Gujarat, India</li>
+                  <li><span class="ion-ios-telephone"></span> +91-XXXXXXXXXX</li>
+                  <li><span class="ion-email"></span> your-email@example.com</li>
+                </ul>
+              </div>
+              <div class="socials mt-3">
+                <ul>
+                  <li><a href="#" aria-label="facebook"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                  <li><a href="#" aria-label="instagram"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                  <li><a href="#" aria-label="twitter"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                  <li><a href="#" aria-label="linkedin"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>Sanket infotech</strong>. All Rights Reserved</p>
-            </div>
-          </div>
-        </div>
+    <footer class="mt-4">
+      <div class="container text-center">
+        <p class="copyright">&copy; <strong>Sanket Infotech</strong>. All Rights Reserved</p>
       </div>
     </footer>
   </section>
-  <!--/ Section Contact-footer End /-->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>
 
-  <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/popper/popper.min.js"></script>
@@ -506,11 +277,7 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
 </body>
 </html>
