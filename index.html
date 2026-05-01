@@ -1,283 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="utf-8">
-  <title>Sanket Infotech — Sanket Prajapati</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <meta name="keywords" content="Sanket Prajapati, Full Stack Developer, PHP Developer, CodeIgniter Developer, Frontend Developer">
-  <meta name="description" content="Portfolio of Sanket Prajapati — Full Stack Developer, PHP & WordPress developer, front-end specialist.">
-
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <style>
-    @media (max-width: 767px) {
-      .navbar-brand { font-size: 20px; }
-      .intro-title { font-size: 28px; line-height: 1.1; }
-      .intro-subtitle { font-size: 16px; }
-      .about-info p { font-size: 14px; }
-      .title-s { font-size: 16px; }
-    }
-
-    .intro {
-      background-size: cover !important;
-      background-position: center !important;
-      min-height: 80vh;
-      display: flex;
-      align-items: center;
-    }
-
-    .about-img img { width: 100%; height: auto; display:block; }
-    .progress { height: 8px; }
-    .progress-bar { transition: width .8s ease; }
-    .box-shadow-full { padding: 18px; }
-    .service-box { padding: 20px 10px; }
-    .work-box { margin-bottom: 20px; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanket Prajapati — SaaS &amp; Web Systems Architect | Book a Free Consultation</title>
+  <meta name="description" content="Ship scalable SaaS and custom web apps without a large in-house team. CodeIgniter 4, Node, React &amp; AI integrations. Book a free consultation.">
+  <meta name="keywords" content="Sanket Prajapati, SaaS Developer, Full Stack, CodeIgniter, React, System Architecture, India">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <div class="noise-overlay" aria-hidden="true"></div>
 
-<body id="page-top">
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
 
-  <!-- Nav -->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Sanket Infotech</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo magnetic-target" href="#top" aria-label="Sanket Prajapati home">SP<span class="logo-dot">.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
       </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link js-scroll active" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll" href="#service">Services</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll" href="#work">Work</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#about" data-section="about">About</a></li>
+          <li><a class="nav-link" href="#services" data-section="services">Services</a></li>
+          <li><a class="nav-link" href="#stack" data-section="stack">Stack</a></li>
+          <li><a class="nav-link" href="#case-studies" data-section="case-studies">Case Studies</a></li>
+          <li><a class="nav-link" href="#screenshots" data-section="screenshots">Screenshots</a></li>
+          <li><a class="nav-link" href="#social-proof" data-section="social-proof">Results</a></li>
+          <li><a class="nav-link" href="#experience" data-section="experience">Experience</a></li>
+          <li><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
         </ul>
+      </nav>
+      <a class="header-cta btn btn-primary btn-compact magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Book consultation</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg hero-bg-parallax" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="hero-kicker hero-enter hero-enter-1">Sanket Prajapati · Full Stack Architect</p>
+          <h1 id="hero-heading" class="hero-title hero-gradient-text hero-enter hero-enter-2">Build Scalable SaaS Products Without Hiring a Large Team</h1>
+          <p class="hero-role hero-enter hero-enter-3">I help startups and businesses ship high-performance systems using CI4, Node, React &amp; AI—without the overhead of a bloated dev roster.</p>
+          <ul class="hero-trust hero-enter hero-enter-4">
+            <li><span class="hero-trust-icon" aria-hidden="true">✔</span> 8+ years experience</li>
+            <li><span class="hero-trust-icon" aria-hidden="true">✔</span> SaaS product builder</li>
+            <li><span class="hero-trust-icon" aria-hidden="true">✔</span> Full stack architect</li>
+          </ul>
+          <div class="hero-actions hero-enter hero-enter-5">
+            <a class="btn btn-primary magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label"><span class="btn-emoji" aria-hidden="true">🚀</span> Book Free Consultation</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+            <a class="btn btn-ghost magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label"><span class="btn-emoji" aria-hidden="true">📩</span> Get Proposal</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </div>
+        </div>
+        <div class="hero-visual hero-enter hero-enter-6">
+          <div class="hero-avatar-wrap">
+            <div class="hero-avatar-frame magnetic-target">
+              <img
+                class="hero-avatar-img"
+                src="img/sanket-prajapati.jpg"
+                alt="Sanket Prajapati"
+                width="2874"
+                height="2874"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              Accepting new SaaS &amp; build engagements
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-head reveal fade-up">
+          <p class="section-label">Why work with me</p>
+          <h2 id="about-heading" class="section-title">Delivery-focused architecture, not endless discovery</h2>
+          <p class="section-desc">You get a senior engineer who owns backend, frontend, and data model decisions—so you move from idea to revenue faster with fewer handoffs.</p>
+        </header>
+        <div class="about-grid reveal-group">
+          <div class="glass-card about-card reveal-child fade-up">
+            <p class="about-lead">
+              With <strong>8+ years</strong> shipping production web systems, I bridge backend rigor, frontend polish,
+              and cloud-ready delivery. I focus on maintainable architecture, clear APIs, and measurable outcomes for SaaS teams.
+            </p>
+            <p class="about-text">
+              From inventory platforms to education suites, I design data models, authentication flows, and dashboards
+              that teams can evolve without rewrite cycles—paired with AI-assisted tooling where it genuinely improves UX.
+            </p>
+            <a class="btn btn-outline magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Discuss your roadmap</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </div>
+          <ul class="about-highlights glass-card reveal-child fade-up">
+            <li>
+              <span class="highlight-label">Backend</span>
+              <span class="highlight-value">CodeIgniter 4, Node.js, REST APIs</span>
+            </li>
+            <li>
+              <span class="highlight-label">Frontend</span>
+              <span class="highlight-value">React, Next.js, modern CSS</span>
+            </li>
+            <li>
+              <span class="highlight-label">Database</span>
+              <span class="highlight-value">MySQL, schema design, performance</span>
+            </li>
+            <li>
+              <span class="highlight-label">SaaS &amp; AI</span>
+              <span class="highlight-value">Multi-tenant patterns, GPT integrations</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-head reveal fade-up">
+          <p class="section-label">Services</p>
+          <h2 id="services-heading" class="section-title">How we can work together</h2>
+          <p class="section-desc">Pick the engagement that matches your stage—each path ends with code you can run and extend.</p>
+        </header>
+        <div class="services-grid reveal-group">
+          <article class="service-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <h3 class="service-title">SaaS Development</h3>
+            <p class="service-problem"><strong>Problem:</strong> Spreadsheets and duct-taped tools don&apos;t scale.</p>
+            <p class="service-solution"><strong>Solution:</strong> Multi-tenant SaaS with auth, billing hooks, and analytics-ready data models.</p>
+            <a class="btn btn-outline service-cta magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Get Quote</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </article>
+          <article class="service-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <h3 class="service-title">Custom Web Apps</h3>
+            <p class="service-problem"><strong>Problem:</strong> Off-the-shelf software misses your workflow.</p>
+            <p class="service-solution"><strong>Solution:</strong> Tailored CRUD, dashboards, and integrations on CI4 or Node + React.</p>
+            <a class="btn btn-outline service-cta magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Get Quote</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </article>
+          <article class="service-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <h3 class="service-title">System Architecture</h3>
+            <p class="service-problem"><strong>Problem:</strong> Teams rebuild the same features because foundations were unclear.</p>
+            <p class="service-solution"><strong>Solution:</strong> Blueprints for APIs, modules, and deployment so builds stay consistent.</p>
+            <a class="btn btn-outline service-cta magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Get Quote</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </article>
+          <article class="service-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <h3 class="service-title">AI Integration</h3>
+            <p class="service-problem"><strong>Problem:</strong> ChatGPT bolt-ons leak data or confuse users.</p>
+            <p class="service-solution"><strong>Solution:</strong> Secure, role-aware AI features wired to your schema and audit trails.</p>
+            <a class="btn btn-outline service-cta magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Get Quote</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stack" id="stack" aria-labelledby="stack-heading">
+      <div class="container">
+        <header class="section-head reveal fade-up">
+          <p class="section-label">Capabilities</p>
+          <h2 id="stack-heading" class="section-title">Tech stack</h2>
+          <p class="section-desc">Production-grade tooling across backend, frontend, data, and delivery.</p>
+        </header>
+        <div class="stack-grid reveal-group">
+          <article class="stack-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="stack-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 18h20v4H14v-4zm0 8h12v4H14v-4zm0 8h16v4H14v-4z" stroke="currentColor" stroke-width="2"/><rect x="8" y="10" width="32" height="28" rx="3" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="stack-title">Backend</h3>
+            <p class="stack-desc">PHP 8, CI4, Node, queues, auth, billing hooks.</p>
+            <ul class="stack-tags">
+              <li>CodeIgniter 4</li>
+              <li>Node.js</li>
+              <li>REST / JSON</li>
+            </ul>
+          </article>
+          <article class="stack-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="stack-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 36l12-24 12 24H12z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="24" cy="14" r="4" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="stack-title">Frontend</h3>
+            <p class="stack-desc">Component systems, SSR, performance-first UX.</p>
+            <ul class="stack-tags">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+            </ul>
+          </article>
+          <article class="stack-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="stack-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="24" cy="24" rx="14" ry="8" stroke="currentColor" stroke-width="2"/><path d="M10 24h28M18 18v12M30 18v12" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="stack-title">Database</h3>
+            <p class="stack-desc">Modeling, migrations, indexing, reporting queries.</p>
+            <ul class="stack-tags">
+              <li>MySQL</li>
+              <li>Redis</li>
+              <li>Migrations</li>
+            </ul>
+          </article>
+          <article class="stack-card glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="stack-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 28l8-16 6 12 6-8 8 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="12" r="3" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="stack-title">DevOps</h3>
+            <p class="stack-desc">CI/CD, environments, observability, releases.</p>
+            <ul class="stack-tags">
+              <li>GitHub Actions</li>
+              <li>Docker</li>
+              <li>Linux</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects case-studies" id="case-studies" aria-labelledby="case-studies-heading">
+      <div class="container">
+        <header class="section-head reveal fade-up">
+          <p class="section-label">Case studies</p>
+          <h2 id="case-studies-heading" class="section-title">Outcomes that compound</h2>
+          <p class="section-desc">Problem → solution → stack → measurable impact. Same playbook for your next build.</p>
+        </header>
+        <div class="projects-grid reveal-group">
+          <article class="project-card glass-card card-interactive case-card reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="project-card-top">
+              <span class="project-badge">SaaS</span>
+              <h3 class="project-title">Inventra SaaS</h3>
+              <p class="case-block"><span class="case-label">Problem</span> Manual stock and billing led to revenue leakage and slow month-end closes.</p>
+              <p class="case-block"><span class="case-label">Solution</span> Unified inventory, invoicing, and role-based analytics—delivered as a fast Next.js UI on a Node.js API with MySQL.</p>
+              <p class="case-block"><span class="case-label">Tech</span> Next.js · Node.js · MySQL</p>
+              <p class="case-result"><span class="case-label">Result</span> Reduced manual billing errors by ~80% with automated invoicing and stock sync.</p>
+            </div>
+            <a class="btn btn-primary project-cta magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">👉 Build Similar System</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </article>
+          <article class="project-card glass-card card-interactive case-card reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="project-card-top">
+              <span class="project-badge project-badge-alt">Enterprise</span>
+              <h3 class="project-title">School Management System</h3>
+              <p class="case-block"><span class="case-label">Problem</span> Disconnected fee, attendance, and reporting tools exhausted admin staff.</p>
+              <p class="case-block"><span class="case-label">Solution</span> Single portal for finance, attendance, student records, and exportable reports.</p>
+              <p class="case-block"><span class="case-label">Tech</span> PHP · MySQL · Reporting layer</p>
+              <p class="case-result"><span class="case-label">Result</span> Cut reconciliation time by roughly half; fewer duplicate data entry touchpoints.</p>
+            </div>
+            <a class="btn btn-primary project-cta magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">👉 Build Similar System</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section screenshots" id="screenshots" aria-labelledby="screenshots-heading">
+      <div class="container">
+        <header class="section-head reveal fade-up">
+          <p class="section-label">Gallery</p>
+          <h2 id="screenshots-heading" class="section-title">Product screenshots</h2>
+        </header>
+
+        <div class="shots-bento reveal-group">
+          <figure class="shot-tile shot-tile--feature glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="shot-frame">
+              <div class="shot-chrome">
+                <span class="shot-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                <span class="shot-url">inventraapp.in</span>
+              </div>
+              <div class="shot-viewport shot-viewport--wide">
+                <img
+                  class="shot-img"
+                  src="img/screenshots/Free-Inventory-Management-Software-for-Small.png"
+                  width="1920"
+                  height="911"
+                  loading="lazy"
+                  decoding="async"
+                  alt="InventraApp — landing hero with inventory dashboard preview, GST-ready billing, and sales overview"
+                />
+              </div>
+            </div>
+            <figcaption class="shot-caption">
+              <span class="shot-name">Inventra SaaS</span>
+              <span class="shot-meta">Stock · Billing · Reports · Next.js · Node · MySQL</span>
+            </figcaption>
+          </figure>
+
+          <figure class="shot-tile shot-tile--stack glass-card card-interactive reveal-child fade-up">
+            <div class="card-shine" aria-hidden="true"></div>
+            <div class="shot-frame">
+              <div class="shot-chrome">
+                <span class="shot-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                <span class="shot-url">eduschool.schoolbridge.in</span>
+              </div>
+              <div class="shot-viewport">
+                <img
+                  class="shot-img"
+                  src="img/screenshots/Educase-India-School.png"
+                  width="638"
+                  height="754"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Educase India School — login portal with Administration, Staff, and Parent roles"
+                />
+              </div>
+            </div>
+            <figcaption class="shot-caption">
+              <span class="shot-name">School Management</span>
+              <span class="shot-meta">Fees · Attendance</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section social-proof" id="social-proof" aria-labelledby="social-proof-heading">
+      <div class="container">
+        <header class="section-head reveal fade-up">
+          <p class="section-label">Trust</p>
+          <h2 id="social-proof-heading" class="section-title">Trusted by teams shipping real products</h2>
+          <p class="section-desc">Sample testimonials—swap in client quotes and logos as you collect them.</p>
+        </header>
+        <div class="stats-row glass-card reveal fade-up">
+          <div class="stat-item">
+            <span class="stat-value">35+</span>
+            <span class="stat-label">Projects delivered</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">8+</span>
+            <span class="stat-label">Years experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">120+</span>
+            <span class="stat-label">Modules &amp; features shipped</span>
+          </div>
+        </div>
+        <div class="testimonials-grid reveal-group">
+          <blockquote class="testimonial-card glass-card reveal-child fade-up">
+            <p class="testimonial-text">&ldquo;We replaced fragile spreadsheets with a proper SaaS workflow. Billing finally matched inventory—fewer escalations every month.&rdquo;</p>
+            <footer class="testimonial-meta"><cite>Operations Lead</cite><span class="testimonial-role">Inventory platform</span></footer>
+          </blockquote>
+          <blockquote class="testimonial-card glass-card reveal-child fade-up">
+            <p class="testimonial-text">&ldquo;Clear architecture docs meant our vendor could extend the school portal without breaking fees or attendance. Huge relief for IT.&rdquo;</p>
+            <footer class="testimonial-meta"><cite>IT Manager</cite><span class="testimonial-role">Education sector</span></footer>
+          </blockquote>
+        </div>
+        <p class="social-proof-cta reveal fade-up">
+          <a class="btn btn-primary magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Become the next success story</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section lead-magnet" id="lead-magnet" aria-labelledby="lead-magnet-heading">
+      <div class="container">
+        <div class="lead-magnet-inner glass-card reveal fade-up">
+          <div class="lead-magnet-copy">
+            <p class="section-label">Lead magnet</p>
+            <h2 id="lead-magnet-heading" class="section-title">Download Free SaaS Starter Guide</h2>
+            <p class="section-desc">A concise checklist: MVP scope, auth patterns, billing hooks, and deployment baseline—plus questions to ask before you hire.</p>
+          </div>
+          <form class="lead-magnet-form" id="lead-magnet-form" action="#" method="post" novalidate>
+            <input type="hidden" name="_subject" value="Portfolio — SaaS guide download">
+            <input type="hidden" name="source" value="lead_magnet">
+            <div class="lead-magnet-fields">
+              <label class="visually-hidden" for="lead-email">Email</label>
+              <input class="form-input lead-email-input" id="lead-email" name="email" type="email" autocomplete="email" required placeholder="Work email">
+              <button class="btn btn-primary magnetic-target" type="submit"><span class="btn-inner"><span class="btn-label">Send me the guide</span><span class="btn-arrow" aria-hidden="true">→</span></span></button>
+            </div>
+            <p class="lead-magnet-status" id="lead-magnet-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-head reveal fade-up">
+          <p class="section-label">Timeline</p>
+          <h2 id="experience-heading" class="section-title">Experience</h2>
+        </header>
+        <div class="timeline-wrap" id="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+          <ol class="timeline">
+          <li class="timeline-item reveal fade-up">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass-card">
+              <span class="timeline-years">2018 — Present</span>
+              <h3 class="timeline-role">Senior Full Stack Developer / Architect</h3>
+              <p class="timeline-org">SaaS &amp; product platforms</p>
+              <p class="timeline-text">Led architecture for multi-module systems, mentored engineers, and shipped CI/CD-backed releases with measurable uptime.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal fade-up">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass-card">
+              <span class="timeline-years">2015 — 2018</span>
+              <h3 class="timeline-role">Full Stack Developer</h3>
+              <p class="timeline-org">Agency &amp; enterprise clients</p>
+              <p class="timeline-text">Delivered PHP/React stacks, integrated payments and reporting, and standardized reusable UI patterns.</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal fade-up">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card glass-card">
+              <span class="timeline-years">2014 — 2015</span>
+              <h3 class="timeline-role">Web Developer</h3>
+              <p class="timeline-org">Early career</p>
+              <p class="timeline-text">Built responsive sites and CMS extensions; grew into API design and database-heavy applications.</p>
+            </div>
+          </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+          <header class="section-head reveal fade-up">
+            <p class="section-label">Contact</p>
+            <h2 id="contact-heading" class="section-title">Get a free consultation</h2>
+            <p class="section-desc">Tell me about your product and timeline. I reply within one business day with next steps—or a polite no if we&apos;re not a fit.</p>
+            <ul class="contact-trust">
+              <li>No obligation scoping call</li>
+              <li>NDA-friendly</li>
+              <li>Remote-first, IST overlap</li>
+            </ul>
+          </header>
+          <form class="contact-form glass-card reveal fade-up" id="contact-form" action="#" method="post" novalidate>
+            <input type="hidden" name="_subject" value="Portfolio — Consultation request">
+            <input type="text" name="_gotcha" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <div class="form-field form-field-float">
+                <input class="form-input" id="contact-name" type="text" name="name" autocomplete="name" required placeholder=" ">
+                <label class="form-label-float" for="contact-name">Name</label>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field form-field-float">
+                <input class="form-input" id="contact-email" type="email" name="email" autocomplete="email" required placeholder=" ">
+                <label class="form-label-float" for="contact-email">Email</label>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field form-field-select">
+                <label class="form-label-above" id="contact-type-label" for="contact-type-btn">Project type</label>
+                <div class="custom-select" data-custom-select>
+                  <select id="contact-type" name="project_type" class="custom-select-native visually-hidden" required tabindex="-1" aria-hidden="true">
+                    <option value="" disabled selected>Select type</option>
+                    <option value="saas">New SaaS product</option>
+                    <option value="webapp">Custom web application</option>
+                    <option value="architecture">Architecture / audit</option>
+                    <option value="ai">AI integration</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <button type="button" class="custom-select-trigger" id="contact-type-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="contact-type-listbox" aria-labelledby="contact-type-label">
+                    <span class="custom-select-value" id="contact-type-value">Select type</span>
+                    <span class="custom-select-chevron" aria-hidden="true">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                  </button>
+                  <ul class="custom-select-list" id="contact-type-listbox" role="listbox" hidden></ul>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field form-field-float">
+                <textarea class="form-input form-textarea" id="contact-message" name="message" rows="5" required placeholder=" "></textarea>
+                <label class="form-label-float" for="contact-message">Message</label>
+              </div>
+            </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <button class="btn btn-primary btn-block magnetic-target" type="submit"><span class="btn-inner"><span class="btn-label">Get Free Consultation</span><span class="btn-arrow" aria-hidden="true">→</span></span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-cta glass-card">
+      <div class="container footer-cta-inner">
+        <div class="footer-cta-copy">
+          <h2 class="footer-cta-title">Ready to build your system?</h2>
+          <p class="footer-cta-desc">Book a short call and leave with a clearer technical direction—whether we work together or not.</p>
+        </div>
+        <a class="btn btn-primary btn-lg magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">👉 Book a Call</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
       </div>
     </div>
-  </nav>
+    <div class="container footer-inner">
+      <div class="footer-social">
+        <a class="magnetic-target" href="https://github.com/shprajapati" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+        <a class="magnetic-target" href="https://www.linkedin.com/in/sanket-prajapati" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> Sanket Prajapati. All rights reserved.</p>
+    </div>
+  </footer>
 
-  <!-- Intro -->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content w-100">
-      <div class="container text-center">
-        <h1 class="intro-title mb-3">Hi — I'm <strong>Sanket Prajapati</strong></h1>
-        <p class="intro-subtitle mb-0">
-          Full Stack Developer • PHP, CodeIgniter, WordPress & Frontend Specialist
-        </p>
-        <p class="mt-3">
-          <a href="#work" class="btn btn-primary btn-sm">See my work</a>
-          <a href="#contact" class="btn btn-outline-light btn-sm ml-2">Get in touch</a>
-        </p>
+  <!-- WhatsApp: replace 917405506478 with your full international number (no + or spaces). -->
+  <div class="sticky-cta-bar" role="region" aria-label="Quick contact">
+    <div class="sticky-cta-inner">
+      <a class="btn btn-primary btn-sticky magnetic-target" href="#contact"><span class="btn-inner"><span class="btn-label">Book Free Call</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+      <a class="btn btn-ghost btn-sticky magnetic-target wa-link-sticky" href="https://wa.me/917405506478?text=Hi%2C%20I%20want%20to%20discuss%20a%20project" target="_blank" rel="noopener noreferrer"><span class="btn-inner"><span class="btn-label">WhatsApp Now</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+    </div>
+  </div>
+
+  <a class="wa-float magnetic-target" href="https://wa.me/917405506478?text=Hi%2C%20I%20want%20to%20discuss%20a%20project" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp: discuss a project">
+    <span class="wa-float-icon" aria-hidden="true">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </span>
+  </a>
+
+  <div class="exit-modal" id="exit-modal" hidden aria-hidden="true">
+    <div class="exit-modal-backdrop" id="exit-modal-backdrop" tabindex="-1"></div>
+    <div class="exit-modal-dialog glass-card" role="dialog" aria-modal="true" aria-labelledby="exit-modal-title">
+      <button type="button" class="exit-modal-close" id="exit-modal-close" aria-label="Close dialog">&times;</button>
+      <p class="section-label">Before you go</p>
+      <h2 id="exit-modal-title" class="exit-modal-title">Wait! Get a FREE system architecture plan</h2>
+      <p class="exit-modal-desc">Leave your email on the contact form—or claim now and jump straight to booking a free consult.</p>
+      <div class="exit-modal-actions">
+        <a class="btn btn-primary magnetic-target" href="#contact" id="exit-modal-cta"><span class="btn-inner"><span class="btn-label">👉 Claim Free Plan</span><span class="btn-arrow" aria-hidden="true">→</span></span></a>
+        <button type="button" class="btn btn-ghost" id="exit-modal-dismiss">No thanks</button>
       </div>
     </div>
   </div>
 
-  <!-- About -->
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-12 col-md-5">
-                <div class="about-img">
-                  <img src="img/sanket.jpg" class="img-fluid rounded b-shadow-a" alt="Sanket Prajapati">
-                </div>
-              </div>
-              <div class="col-12 col-md-7">
-                <div class="about-info">
-                  <p><span class="title-s">Name: </span> <span>Sanket Prajapati</span></p>
-                  <p><span class="title-s">Profile: </span> <span>Full Stack Developer / Senior Application Architect</span></p>
-                  <p><span class="title-s">Location: </span> <span>Ahmedabad, Gujarat, India</span></p>
-                  <p><span class="title-s">Experience: </span> <span>8+ years building web applications</span></p>
-                  <p><span class="title-s">Email: </span> <span>your-email@example.com</span></p>
-                  <p><span class="title-s">Phone: </span> <span>+91-XXXXXXXXXX</span></p>
-                </div>
-                <div class="about-me pt-3">
-                  <p class="title-s">About Me</p>
-                  <p>
-                    I design and develop scalable, performance-focused web applications using PHP, CodeIgniter, WordPress,
-                    and modern frontend technologies like React and JavaScript. I specialize in complex system design,
-                    dynamic form creation, and AI-powered integrations.
-                  </p>
-                  <div class="skill-mf mt-3">
-                    <p class="title-s">Skills</p>
-                    <div class="mb-2"><span>PHP</span> <span class="pull-right">85%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:85%"></div></div></div>
-                    <div class="mb-2"><span>CodeIgniter</span> <span class="pull-right">90%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:90%"></div></div></div>
-                    <div class="mb-2"><span>JavaScript / React</span> <span class="pull-right">95%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:95%"></div></div></div>
-                    <div class="mb-2"><span>WordPress</span> <span class="pull-right">80%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:80%"></div></div></div>
-                    <div class="mb-2"><span>MySQL</span> <span class="pull-right">85%</span><div class="progress"><div class="progress-bar" role="progressbar" style="width:85%"></div></div></div>
-                  </div>
-                </div>
-              </div> 
-            </div> 
-          </div> 
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section id="service" class="services-mf route">
-    <div class="container">
-      <div class="title-box text-center">
-        <h3 class="title-a">Services</h3>
-        <div class="line-mf"></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <div class="service-box text-center">
-            <div class="service-ico"><span class="ico-circle"><i class="ion-monitor"></i></span></div>
-            <h2 class="s-title">Web Design</h2>
-            <p class="small">Clean, responsive UI & UX for desktop and mobile applications.</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="service-box text-center">
-            <div class="service-ico"><span class="ico-circle"><i class="ion-code-working"></i></span></div>
-            <h2 class="s-title">Web Development</h2>
-            <p class="small">Backend development with PHP, CodeIgniter, and WordPress custom themes & plugins.</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
-          <div class="service-box text-center">
-            <div class="service-ico"><span class="ico-circle"><i class="ion-android-phone-portrait"></i></span></div>
-            <h2 class="s-title">Responsive Design</h2>
-            <p class="small">Pixel-perfect responsive layouts and performance optimization across devices.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section id="work" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="title-box text-center">
-        <h3 class="title-a">Portfolio</h3>
-        <p class="subtitle-a">Selected projects — click to view (replace images/links with real projects)</p>
-        <div class="line-mf"></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="work-box">
-            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
-              <div class="work-img"><img src="img/work-1.jpg" alt="Project 1" class="img-fluid"></div>
-              <div class="work-content p-2">
-                <h2 class="w-title">Custom CMS Project</h2>
-                <div class="w-more"><span class="w-ctegory">Web Development</span> / <span class="w-date">2024</span></div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="work-box">
-            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
-              <div class="work-img"><img src="img/work-2.jpg" alt="Project 2" class="img-fluid"></div>
-              <div class="work-content p-2">
-                <h2 class="w-title">WordPress E-commerce</h2>
-                <div class="w-more"><span class="w-ctegory">WordPress</span> / <span class="w-date">2023</span></div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="work-box">
-            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-              <div class="work-img"><img src="img/work-3.jpg" alt="Project 3" class="img-fluid"></div>
-              <div class="work-content p-2">
-                <h2 class="w-title">E-commerce Web App</h2>
-                <div class="w-more"><span class="w-ctegory">E-commerce</span> / <span class="w-date">2022</span></div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="contact-mf">
-        <div id="contact" class="box-shadow-full p-3">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="title-box-2"><h5 class="title-left">Send Message</h5></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div id="sendmessage" style="display:none">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-                <div class="form-group mb-2"><input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required></div>
-                <div class="form-group mb-2"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required></div>
-                <div class="form-group mb-2"><input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required></div>
-                <div class="form-group mb-2"><textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea></div>
-                <div class="form-group"><button type="submit" class="button button-a button-big button-rouded">Send Message</button></div>
-              </form>
-            </div>
-
-            <div class="col-md-6">
-              <div class="title-box-2 pt-4 pt-md-0"><h5 class="title-left">Get in Touch</h5></div>
-              <div class="more-info">
-                <p class="small">Prefer email? Send me a note at <strong>your-email@example.com</strong> or call <strong>+91-XXXXXXXXXX</strong>.</p>
-                <ul class="list-ico">
-                  <li><span class="ion-ios-location"></span> Ahmedabad, Gujarat, India</li>
-                  <li><span class="ion-ios-telephone"></span> +91-XXXXXXXXXX</li>
-                  <li><span class="ion-email"></span> your-email@example.com</li>
-                </ul>
-              </div>
-              <div class="socials mt-3">
-                <ul>
-                  <li><a href="#" aria-label="facebook"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                  <li><a href="#" aria-label="instagram"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                  <li><a href="#" aria-label="twitter"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                  <li><a href="#" aria-label="linkedin"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer class="mt-4">
-      <div class="container text-center">
-        <p class="copyright">&copy; <strong>Sanket Infotech</strong>. All Rights Reserved</p>
-      </div>
-    </footer>
-  </section>
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
-
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <script src="contactform/contactform.js"></script>
-  <script src="js/main.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
